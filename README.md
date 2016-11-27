@@ -12,7 +12,7 @@ This is it in action:
 ![Screenshot](pdt.gif)
 
 The application consist two main parts, which are frontend web application and backand python application. Python script is also communicating with PostfreSQL database.
-The whole project is located in /htdocs/pdt/ directory
+The whole project is located in /htdocs/pdt/ folder.
 
 ## Frontend
 
@@ -28,7 +28,7 @@ All relevant frontend code is in `/htdocs/pdt/js/pdt/controller.js` which is ref
 
 ## Backend
 
-The backend application is written in Python and is responsible for querying geo data, and send return it back to javascript controller. Python script is using psycopg2 module, which has functions to communicate with Postgresql database.
+The backend application is written in Python and is responsible for querying geo data, and send return it back to javascript controller. Python script is using psycopg2 module, which has functions to communicate with Postgresql database. Python scripts are located in /cgi-bin folder.
 
 ### Data
 
